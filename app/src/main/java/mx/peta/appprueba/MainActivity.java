@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         final RadioGroup group1 = (RadioGroup) findViewById(R.id.orientation);
         group1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 switch (checkedId) {
                     case R.id.horizontal:
